@@ -25,4 +25,4 @@ For more info, please see each project's README.
 
 ## Example Captcha Image
 
-![example_captcha](https://raw.githubusercontent.com/g-eleutheriou/efka-captcha-solver-dl4j/blob/master/efka-captcha-solver/captcha.jpg)
+![example_captcha](https://raw.githubusercontent.com/g-eleutheriou/efka-captcha-solver-dl4j/master/efka-captcha-solver/captcha.jpg)
