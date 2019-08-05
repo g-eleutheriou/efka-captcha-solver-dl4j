@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>efka-captcha-solver-dl4j</groupId>
+  <artifactId>efka-captcha-solver-dl4j</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>efka-captcha-downloader</module>
+    <module>efka-captcha-training</module>
+    <module>efka-captcha-solver</module>
+  </modules>
+  
+  <dependencies>
+  
+  	<dependency>
+	    <groupId>org.deeplearning4j</groupId>
+	    <artifactId>deeplearning4j-core</artifactId>
+	    <version>1.0.0-beta4</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.deeplearning4j</groupId>
+	    <artifactId>deeplearning4j-ui_2.11</artifactId>
+	    <version>1.0.0-beta4</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.slf4j</groupId>
+	    <artifactId>slf4j-api</artifactId>
+	    <version>1.7.26</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.nd4j</groupId>
+	    <artifactId>nd4j-native-platform</artifactId>
+	    <version>1.0.0-beta4</version>
+	</dependency>
+  
+  </dependencies>
+</project>
